@@ -12,7 +12,13 @@ Doing something
 
 Code Block
 
-``` Pascal
+```pascal
+program test
+
+begin
+end.
+
+```
 
 
 
