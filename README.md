@@ -12,7 +12,7 @@ Doing something
 
 Code Block
 
-```pascal
+```Pascal
 program test
 
 begin
