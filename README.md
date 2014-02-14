@@ -16,6 +16,9 @@ Pascal Code Block
 program test
 
 begin
+
+writeln ('Hello World');
+
 end.
 
 ```
