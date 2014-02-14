@@ -1,0 +1,49 @@
+
+#Working with GitHub
+
+
+## Standard Everyday GIT stuff
+
+###Retrieve remote repository
+git clone SandorLABS/test
+
+###Show status of a file in local repo. Leave filename off to see all 
+git status <Filename>
+
+###Add a new file  or modified files to staged mode
+git add <Filename>
+
+###Commit all new files or staged/modified files 
+git commit
+
+###Push changes to remote server
+git push
+
+
+## Branching fun stuff.
+
+### Create a new branch
+git branch <new Branch>
+
+###Switch to work in the specified branch
+git checkout <Branch>
+
+### Push a branch to the remote repository
+git push origin <branch>
+
+###Switch to work in the master (HEAD) branch
+git checkout master
+
+###Merge the branch to the current working branch
+git merge <branch>
+
+Note when merging, all files from the branch are moved to the
+local working branch commit stage. So all that needs to be done is
+to push the changes to the remote server.
+
+
+
+
+
+
+
