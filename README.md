@@ -15,10 +15,20 @@ Pascal Code Block
 ```Pascal
 program test
 
+type
+   Message = record
+       num  : Integer;
+       line : String;
+       flag : Byte;
+   end;
+
+
+var
+   x : Integer;
+   
+   
 begin
-
 writeln ('Hello World');
-
 end.
 
 ```
