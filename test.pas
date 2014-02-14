@@ -1,5 +1,4 @@
-﻿x := foo.bar(2, 3) + 2;
-
+﻿
 Program Test(output);
 type
 	Person = record
@@ -12,4 +11,5 @@ type
 
 begin
 	(* This is a comment *)
+	x := foo.bar(2, 3) + 2;
 end.
